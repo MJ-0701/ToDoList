@@ -13,6 +13,7 @@
 		F1944F1F2834C6CF001B336F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1944F1D2834C6CF001B336F /* Main.storyboard */; };
 		F1944F212834C6D0001B336F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1944F202834C6D0001B336F /* Assets.xcassets */; };
 		F1944F242834C6D0001B336F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1944F222834C6D0001B336F /* LaunchScreen.storyboard */; };
+		F1944F2C2834CC84001B336F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1944F2B2834CC84001B336F /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F1944F202834C6D0001B336F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1944F232834C6D0001B336F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1944F252834C6D0001B336F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1944F2B2834CC84001B336F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F1944F202834C6D0001B336F /* Assets.xcassets */,
 				F1944F222834C6D0001B336F /* LaunchScreen.storyboard */,
 				F1944F252834C6D0001B336F /* Info.plist */,
+				F1944F2B2834CC84001B336F /* Task.swift */,
 			);
 			path = "ToDo-List";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1944F2C2834CC84001B336F /* Task.swift in Sources */,
 				F1944F1C2834C6CF001B336F /* ViewController.swift in Sources */,
 				F1944F182834C6CF001B336F /* AppDelegate.swift in Sources */,
 				F1944F1A2834C6CF001B336F /* SceneDelegate.swift in Sources */,
